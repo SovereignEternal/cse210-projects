@@ -43,9 +43,11 @@ class Journal
 
     public void DisplayEntries()
     {
+        Console.WriteLine("\n\n\n\n\n\n\n");
         foreach (Entry entry in _entries)
         {
             entry.DisplayEntry();
+            Console.WriteLine("");
         }
     }
 
