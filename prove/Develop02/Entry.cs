@@ -18,11 +18,11 @@ class Entry
     private static Random _random = new Random();
     List<string> _prompts = new List<string>
     {
-        "Prompt 1 text",
-        "Prompt 2 text",
-        "Prompt 3 text",
-        "Prompt 4 text",
-        "Prompt 5 text",
+        "How did I help someone today?",
+        "What could I have done better today?",
+        "What was the highlight of my day?",
+        "How have I improved my relationship with God today?",
+        "What is the hardest thing I did today?",
     };
     
     private void GeneratePrompt()
